@@ -82,7 +82,7 @@
 
     </div>
 </div>
-<div class="bg-lime-900 text-center justify-center text-white mr-40 pr-40 ml-20 pl-20 rounded-full rounded-2xl">Prendre rendez-vous</div>
+<a href="troisiemepage"><div class="bg-lime-900 text-center justify-center text-white mr-40 pr-40 ml-20 pl-20 rounded-full rounded-2xl">Prendre rendez-vous</div>
                 </div>
 <div class="bg-white">
    <p class="text-center text-blue-700 font-bold m-10">Contact</p>
