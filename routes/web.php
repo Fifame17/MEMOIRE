@@ -13,6 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('priserdv');
+Route::get('/deuxiemepage', function () {
+    return ['priserdv'=> true];
 });
+
+
+Route::get('/premierepage', function () {
+    return view('page1');
+});
+
+
+Route::get('/troisiemepage', function () {
+    return view('page3');
+});
+
+Route::get('/reel', function () {
+    return view('page');
+});
+
+
+
+
+
+
+
+
