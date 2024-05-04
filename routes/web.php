@@ -6,7 +6,7 @@ use App\Http\Controllers\PatientController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\AdministratorController;
 use App\Http\Controllers\DoctorController;
-
+use App\Http\Controllers\RendezVousController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,7 +38,7 @@ Route::resource('patients', PatientController::class);
 Route::resource('services', ServiceController::class);
 Route::resource('administrators', AdministratorController::class);
 Route::resource('doctors', DoctorController::class);
-
+Route::get('/priserdv', [RendezVousController::class, 'afficherPagePriserdv']);
 
 
 

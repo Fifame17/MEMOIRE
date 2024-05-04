@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Service extends Model
 {
     protected $fillable = [
-        'id_services', 'name', 'updated_at', 'deleted_at'
+        'id_services', 'name', 'updated_at', 'deleted_at','created_at'
     ];
 
     // Relation avec le modèle Doctor

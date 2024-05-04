@@ -3,6 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Service;
+
+
+ function afficherVueAvecDonnees()
+{
+    // Récupérer les services depuis la base de données
+    $services = Service::all();
+
+    // Retourner la vue en passant les données récupérées
+    return view('nom_de_la_vue', ['services' => $services]);
+}
 
 class ServiceController extends Controller
 {
