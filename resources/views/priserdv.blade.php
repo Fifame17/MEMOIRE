@@ -23,9 +23,11 @@
     <label for="Service"class="block text-sm font-bold mb-4 m-4">Service*</label>
     <select id="Service" name="Service" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-slate-100">
       <option value="" disabled selected>Choisissez un service</option>
-      <option value="Service 1">Service 1</option>
-      <option value="Service 2">Service 2</option>
-      <option value="Service 3">Service 3</option>
+      @foreach ($services as $service)
+       <option value="{{$service->id}}">{{$service->name}}</option>
+      @endforeach
+     
+      
     </select>
     
     <label for="Numero de telephone"class="block text-sm font-bold mb-4 m-4">Numéro de téléphone*</label>

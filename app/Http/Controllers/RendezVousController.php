@@ -13,7 +13,7 @@ class RendezVousController extends Controller
         $services = Service::all();
 
         // Retourner la vue en passant les données récupérées
-        return view('priserdv', ['services' => $services]);
+        return view("priserdv", compact("services"));
     }
 }
     
