@@ -33,7 +33,7 @@
     <label for="Numero de telephone"class="block text-sm font-bold mb-4 m-4">Numéro de téléphone*</label>
         <input type="Numero de telephone" id="Numero de telephone"name="Numero de telephone"placeholder="entrez le Numero de telephone"class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:ouline-none focus:shadow-outline bg-slate-100">
     <label for="Date et Heure du rendez-vous"class="block text-sm font-bold mb-4">Date et Heure du rendez-vous*</label>
-        <p class="text-gray-700 m-4">Les dates avec un point rouge ne sont plus diponibles</p>
+        <p class="text-gray-700 m-4">Les dates avec un point rouge ne sont plus disponibles</p>
     
         <div class="flex flex-wrap">
   <!-- Jours de la semaine -->
